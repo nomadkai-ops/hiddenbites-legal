@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HiddenBites – Legal</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #f9f6f1;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+
+    header {
+      background: #1a1a1a;
+      color: #fff;
+      padding: 28px 40px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    header .logo {
+      font-size: 28px;
+    }
+
+    header h1 {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+    }
+
+    header p {
+      font-size: 13px;
+      color: #aaa;
+      margin-top: 2px;
+    }
+
+    nav {
+      background: #fff;
+      border-bottom: 1px solid #e5e5e5;
+      padding: 0 40px;
+      display: flex;
+      gap: 0;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    nav a {
+      display: inline-block;
+      padding: 16px 24px;
+      text-decoration: none;
+      color: #555;
+      font-size: 14px;
+      font-weight: 500;
+      border-bottom: 2px solid transparent;
+      transition: all 0.2s;
+    }
+
+    nav a:hover, nav a.active {
+      color: #1a1a1a;
+      border-bottom-color: #1a1a1a;
+    }
+
+    .page {
+      display: none;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 60px 40px 100px;
+    }
+
+    .page.active {
+      display: block;
+    }
+
+    .page > .meta {
+      font-size: 13px;
+      color: #888;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    h2 {
+      font-size: 32px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      margin-bottom: 8px;
+    }
+
+    h3 {
+      font-size: 18px;
+      font-weight: 700;
+      margin-top: 40px;
+      margin-bottom: 12px;
+      color: #111;
+    }
+
+    p {
+      margin-bottom: 16px;
+      color: #333;
+      font-size: 15px;
+    }
+
+    ul {
+      margin: 0 0 20px 20px;
+      color: #333;
+      font-size: 15px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    .callout {
+      background: #fff8ed;
+      border-left: 3px solid #f5a623;
+      padding: 16px 20px;
+      border-radius: 0 8px 8px 0;
+      margin: 24px 0;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .section-divider {
+      border: none;
+      border-top: 1px solid #e5e5e5;
+      margin: 40px 0;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #f0f0f0;
+      color: #555;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 3px 10px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-right: 6px;
+      margin-bottom: 4px;
+    }
+
+    .badge.red { background: #fde8e8; color: #c0392b; }
+    .badge.yellow { background: #fef3cd; color: #856404; }
+    .badge.green { background: #e8f5e9; color: #2e7d32; }
+
+    .contact-box {
+      background: #fff;
+      border: 1px solid #e5e5e5;
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 40px;
+    }
+
+    .contact-box h4 {
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .contact-box a {
+      color: #1a1a1a;
+      font-weight: 600;
+    }
+
+    @media (max-width: 600px) {
+      header { padding: 20px; }
+      nav { padding: 0 16px; }
+      .page { padding: 40px 20px 80px; }
+      nav a { padding: 14px 14px; font-size: 13px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <span class="logo">🍽</span>
+  <div>
+    <h1>HiddenBites</h1>
+    <p>Legal &amp; Community Standards</p>
+  </div>
+</header>
+
+<nav>
+  <a href="#" class="active" onclick="showPage('privacy', this)">Privacy Policy</a>
+  <a href="#" onclick="showPage('guidelines', this)">Community Guidelines</a>
+</nav>
+
+<!-- ==================== PRIVACY POLICY ==================== -->
+<div class="page active" id="privacy">
+  <h2>Privacy Policy</h2>
+  <div class="meta">
+    Effective date: March 2026 &nbsp;·&nbsp; Last updated: March 2026
+  </div>
+
+  <p>HiddenBites ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains what information we collect, how we use it, and your rights regarding your data when you use the HiddenBites mobile application.</p>
+
+  <h3>1. Information We Collect</h3>
+  <p>We collect the following categories of data when you use HiddenBites:</p>
+  <ul>
+    <li><strong>Account information:</strong> your display name and email address, provided at registration.</li>
+    <li><strong>Profile content:</strong> any profile photo or bio you choose to add.</li>
+    <li><strong>User-generated content:</strong> spots you submit, including titles, descriptions, categories, and any photos you upload.</li>
+    <li><strong>Location data:</strong> precise location when you submit or browse spots. This is linked to your account to associate spots with their location on the map.</li>
+    <li><strong>User ID:</strong> a unique identifier assigned by our authentication provider (Supabase) to manage your account and app access.</li>
+    <li><strong>Usage data:</strong> app interactions such as spots viewed, searches made, and reports submitted — used to improve the app experience.</li>
+  </ul>
+
+  <h3>2. How We Use Your Information</h3>
+  <p>We use the data we collect solely for the following purposes:</p>
+  <ul>
+    <li>To operate and provide the HiddenBites service (authentication, displaying spots, user profiles).</li>
+    <li>To enable community features such as submitting spots, writing reviews, and reporting content.</li>
+    <li>To moderate content and enforce our Community Guidelines.</li>
+    <li>To communicate important service updates or respond to support requests.</li>
+    <li>To improve app performance and fix issues.</li>
+  </ul>
+  <div class="callout">
+    We do <strong>not</strong> sell your personal data. We do <strong>not</strong> use your data for advertising or share it with third-party advertisers.
+  </div>
+
+  <h3>3. Data Sharing</h3>
+  <p>We do not sell, rent, or trade your personal information. We may share data only in the following limited circumstances:</p>
+  <ul>
+    <li><strong>Service providers:</strong> We use Supabase for authentication and database infrastructure. They process data on our behalf under strict data processing agreements.</li>
+    <li><strong>Legal requirements:</strong> If required by law, court order, or to protect the safety of our users or the public.</li>
+    <li><strong>Business transfers:</strong> In the unlikely event of a merger or acquisition, your data may transfer to the new entity under the same privacy protections.</li>
+  </ul>
+
+  <h3>4. Data Storage and Security</h3>
+  <p>Your data is stored securely on Supabase infrastructure with industry-standard encryption in transit and at rest. We apply row-level security (RLS) policies to ensure users can only access data they are authorized to see.</p>
+  <p>While we implement strong security measures, no method of transmission over the internet is 100% secure. We encourage you to use a strong, unique password for your account.</p>
+
+  <h3>5. Data Retention</h3>
+  <p>We retain your account data for as long as your account is active. If you delete your account, your personal data and submitted content will be removed from our systems within 30 days, except where retention is required by law.</p>
+
+  <h3>6. Your Rights</h3>
+  <p>Depending on your location, you may have the following rights regarding your personal data:</p>
+  <ul>
+    <li><strong>Access:</strong> request a copy of the data we hold about you.</li>
+    <li><strong>Correction:</strong> update inaccurate or incomplete information directly in the app or by contacting us.</li>
+    <li><strong>Deletion:</strong> request deletion of your account and associated data.</li>
+    <li><strong>Portability:</strong> request your data in a machine-readable format.</li>
+    <li><strong>Objection:</strong> object to certain types of data processing.</li>
+  </ul>
+  <p>To exercise any of these rights, please contact us at the address below.</p>
+
+  <h3>7. Children's Privacy</h3>
+  <p>HiddenBites is not directed at children under the age of 13. We do not knowingly collect personal data from children. If you believe a child has provided us with their information, please contact us and we will promptly delete it.</p>
+
+  <h3>8. Third-Party Links</h3>
+  <p>The app may contain links to external websites or services. We are not responsible for the privacy practices of those third parties and encourage you to review their privacy policies.</p>
+
+  <h3>9. Changes to This Policy</h3>
+  <p>We may update this Privacy Policy from time to time. We will notify you of significant changes by updating the date at the top of this page or through an in-app notification. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+
+  <div class="contact-box">
+    <h4>Contact Us</h4>
+    <p>If you have any questions about this Privacy Policy or want to exercise your data rights, please reach out:</p>
+    <p>📧 <a href="mailto:hey@kai-thomas.com">hey@kai-thomas.com</a></p>
+  </div>
+</div>
+
+<!-- ==================== COMMUNITY GUIDELINES ==================== -->
+<div class="page" id="guidelines">
+  <h2>Community Guidelines</h2>
+  <div class="meta">
+    Effective date: March 2026 &nbsp;·&nbsp; Last updated: March 2026
+  </div>
+
+  <p>HiddenBites is a community built around discovering and sharing hidden food spots. To keep the platform trustworthy, safe, and fun for everyone, all users are expected to follow these guidelines. By using the app, you agree to abide by these rules.</p>
+
+  <div class="callout">
+    Violations may result in content removal, a warning, a temporary suspension, or a permanent ban — depending on severity and history.
+  </div>
+
+  <h3>1. Submit Real, Accurate Spots</h3>
+  <p>HiddenBites is only as good as the spots its community contributes. Every submission must be genuine.</p>
+  <ul>
+    <li>Only submit spots that actually exist and that you have personally visited or have reliable knowledge of.</li>
+    <li>Provide accurate names, locations, and descriptions. Do not mislead other users.</li>
+    <li>Do not submit duplicate spots. Check if a spot already exists before adding a new one.</li>
+    <li>Do not submit fake, fictional, or joke locations.</li>
+  </ul>
+
+  <h3>2. Keep Content Relevant and High Quality</h3>
+  <ul>
+    <li>Photos must show the actual spot, food, or location — not unrelated images.</li>
+    <li>Descriptions should be helpful, clear, and in good faith. Avoid vague or one-word entries.</li>
+    <li>Do not submit commercial advertisements or promotional content for a business you own or represent without disclosure.</li>
+    <li>Spam submissions — including mass-posting identical or near-identical content — are not allowed.</li>
+  </ul>
+
+  <h3>3. Be Respectful</h3>
+  <p>HiddenBites is a diverse community. Treat others the way you want to be treated.</p>
+  <ul>
+    <li>Do not post hateful, discriminatory, or offensive content based on race, ethnicity, religion, gender, sexual orientation, disability, or any other characteristic.</li>
+    <li>Do not harass, bully, threaten, or intimidate other users — in reviews, comments, or any other form of interaction.</li>
+    <li>Constructive criticism is welcome; personal attacks are not.</li>
+  </ul>
+
+  <h3>4. Write Honest Reviews</h3>
+  <ul>
+    <li>Reviews must reflect your genuine experience. Do not write fake positive reviews for spots you own or are affiliated with.</li>
+    <li>Do not write fake negative reviews to harm a competitor or another user.</li>
+    <li>Do not offer or accept payment, gifts, or other incentives in exchange for reviews.</li>
+  </ul>
+
+  <h3>5. Protect Privacy</h3>
+  <ul>
+    <li>Do not post personal information about other people — including addresses, phone numbers, or photos — without their explicit consent.</li>
+    <li>Do not use HiddenBites to stalk, track, or surveil any individual.</li>
+    <li>Respect the privacy of businesses and their staff when writing reviews.</li>
+  </ul>
+
+  <h3>6. No Illegal or Harmful Content</h3>
+  <p>The following content is strictly prohibited and will result in immediate removal and may lead to a permanent ban:</p>
+  <ul>
+    <li>Content that promotes, glorifies, or facilitates illegal activity.</li>
+    <li>Content depicting or encouraging violence, self-harm, or dangerous behavior.</li>
+    <li>Sexually explicit or adult content of any kind.</li>
+    <li>Content that exploits or endangers minors in any way.</li>
+    <li>Malware, phishing links, or any attempt to compromise user security.</li>
+  </ul>
+
+  <h3>7. Use Your Account Responsibly</h3>
+  <ul>
+    <li>You may only operate one account. Creating multiple accounts to evade a ban or manipulate the platform is prohibited.</li>
+    <li>Do not share your account credentials with others.</li>
+    <li>Do not attempt to exploit, hack, or abuse the platform in any way.</li>
+    <li>Impersonating another user, public figure, or HiddenBites staff is not allowed.</li>
+  </ul>
+
+  <h3>8. Reporting Violations</h3>
+  <p>If you see content or behavior that violates these guidelines, please use the in-app report feature. Our moderation team reviews all reports and will take appropriate action. Do not take matters into your own hands — report and let the team handle it.</p>
+  <p>False or malicious reports made in bad faith may themselves be subject to enforcement action.</p>
+
+  <hr class="section-divider" />
+
+  <h3>Enforcement</h3>
+  <p>Our moderation team reviews reported content and accounts. Depending on the nature and severity of a violation, we may take the following actions:</p>
+  <ul>
+    <li><span class="badge yellow">Warning</span> — a formal notice for minor or first-time violations.</li>
+    <li><span class="badge yellow">Content removal</span> — the offending spot, photo, or review is deleted.</li>
+    <li><span class="badge red">Temporary suspension</span> — your account is restricted for a defined period.</li>
+    <li><span class="badge red">Permanent ban</span> — your account is permanently disabled for serious or repeated violations.</li>
+  </ul>
+  <p>We reserve the right to take action at our discretion to maintain the integrity and safety of the HiddenBites community.</p>
+
+  <h3>Appeals</h3>
+  <p>If you believe an action was taken against your account in error, you may contact us to appeal. We will review the case and respond as promptly as possible.</p>
+
+  <div class="contact-box">
+    <h4>Questions or Appeals</h4>
+    <p>Reach out to our team for any questions about these guidelines or to appeal a moderation decision:</p>
+    <p>📧 <a href="mailto:hey@kai-thomas.com">hey@kai-thomas.com</a></p>
+  </div>
+</div>
+
+<script>
+  function showPage(id, el) {
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
+    document.getElementById(id).classList.add('active');
+    el.classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    return false;
+  }
+</script>
+
+</body>
+</html>
